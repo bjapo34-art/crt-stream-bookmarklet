@@ -9,7 +9,7 @@ Un bookmarklet ultraligero escrito en JavaScript puro que superpone un **filtro 
 * **Detección Automática:** Encuentra y se acopla dinámicamente al elemento `<video>` activo en la página, adaptándose a cambios de tamaño y modo de pantalla completa (*fullscreen*).
 * **Cero Dependencias:** Desarrollado con JavaScript nativo puro, sin librerías externas ni frameworks pesados.
 * **Textura de Ruido Procedural:** Genera un patrón de ruido estático gaussiano optimizado mediante un lienzo de canvas interno.
-* **Control por Teclado:** Permite alternar capas de forma instantánea sin interrumpir la reproducción.
+* **Control por Teclado:** Permite alternar capas al vuelo. Nota en YouTube: El script intercepta los eventos de teclado para evitar que los atajos numéricos nativos de plataformas como YouTube salten a diferentes partes del video al presionar 1 o 2.
 * **Modo Toggle:** Vuelve a hacer clic en el marcador (o ejecuta el script de nuevo) para apagar y limpiar por completo el DOM.
 
 ---
@@ -22,6 +22,7 @@ Una vez que el filtro esté activo sobre un video, puedes usar las siguientes te
 | :---: | :--- |
 | **`1`** | Activa / Desactiva las líneas de escaneo (*Scanlines*) |
 | **`2`** | Activa / Desactiva el ruido estático animado (*Noise*) |
+| **Clic en el Marcador** | Apaga y remueve el filtro por completo del documento |
 
 ---
 
