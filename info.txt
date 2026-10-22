@@ -1,0 +1,5 @@
+crt-stream-bookmarklet/
+├── README.md          # Presentación y guía del proyecto
+├── bookmarklet.min.js # El código listo para copiar al marcador
+└── src/
+    └── tveffect.js      # Código fuente legible y comentado
